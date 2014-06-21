@@ -1,0 +1,11 @@
+{
+	"name": "markdownify",
+	"version": "v0.1.0",
+  "dependencies": {
+    "marked": "^0.3.2",
+    "through": "^2.3.4"
+  },
+  "devDependencies": {
+    "browserify": "^4.1.11"
+  }
+}
