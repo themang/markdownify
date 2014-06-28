@@ -1,11 +1,16 @@
 {
-	"name": "markdownify",
-	"version": "v0.1.0",
+  "name": "markdownify",
+  "version": "v0.1.0",
   "dependencies": {
     "marked": "^0.3.2",
     "through": "^2.3.4"
   },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/index.js"
+  },
   "devDependencies": {
-    "browserify": "^4.1.11"
+    "browserify": "^4.1.11",
+    "concat-stream": "^1.4.6",
+    "mocha": "^1.20.1"
   }
 }
