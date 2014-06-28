@@ -1,4 +1,4 @@
-# markdownify
+# markdownify [![Build Status](https://travis-ci.org/orangemug/markdownify.svg?branch=master)](https://travis-ci.org/orangemug/markdownify)
 Browserify transform for requiring markdown
 
 
