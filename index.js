@@ -1,12 +1,25 @@
-/*jshint node: true*/
+/**
+ * Modules
+ */
+
 var through = require('through');
 var marked  = require("marked");
 
-// Default extensions
+/**
+ * Vars
+ */
 var EXTENSIONS = {
   md:       true,
   markdown: true,
 };
+
+
+/**
+ * Expose markdownify
+ */
+
+module.exports = markdownify;
+
 
 function markdownify(file, opts) {
   extensions = opts.extensions || EXTENSIONS;
@@ -34,4 +47,7 @@ function markdownify(file, opts) {
 
 };
 
-module.exports = markdownify;
+markdownify.setOptions = function(options) {
+  marked.setOptions(options);
+}
+

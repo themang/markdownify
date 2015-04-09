@@ -6,7 +6,7 @@
     "through": "^2.3.4"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/index.js"
+    "test": "make test"
   },
   "devDependencies": {
     "browserify": "^4.1.11",
